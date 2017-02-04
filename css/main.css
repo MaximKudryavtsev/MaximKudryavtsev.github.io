@@ -1,0 +1,216 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.wrapper
+{
+    position: relative;
+    min-height: 100%;
+}
+
+.wrapper .header
+{
+    padding-top: 25px;
+}
+
+.wrapper .header .logo
+{
+    background: url("../img/google-logo.png") no-repeat;
+    margin: 0 auto 20px;
+    width: 112px;
+    height: 36px;
+    text-align: center;
+}
+
+.wrapper .content .info
+{
+    text-align: center;
+}
+
+.info h1
+{
+    font: 300 38px 'Open Sans', arial;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.info h2
+{
+    font: 400 18px 'Open Sans', arial;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.content
+{
+    padding-bottom: 10px;
+}
+
+.main-content .authorization
+{
+    background: #f7f7f7;
+    padding: 40px 40px 61px;
+    margin: 0 auto 25px;
+    width: 274px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3)
+}
+
+.authorization .uncown-user
+{
+    text-align: center;
+    margin: 0 auto 25px;
+    width: 96px;
+    height: 96px;
+    background: url("../img/user.png") no-repeat;
+}
+
+.authorization .form-panel
+{
+    width: 274px;
+}
+
+.authorization .form-panel input
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.authorization .form-panel .email
+{
+    font-size: 16px;
+    padding: 12px 8px 12px 6px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    margin-bottom: 7px;
+    border-radius: 1px;
+}
+
+.authorization .form-panel .next
+{
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background: #4d90fe;
+    background: linear-gradient(to top, #4d90fe, #4787ed);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.authorization .form-panel .next:hover
+{
+    border: 1px solid #2f5bb7;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background: #357ae8;
+    background: linear-gradient(to top, #4d90fe, #357ae8);
+}
+
+.main-content a
+{
+    color: #427fed;
+    cursor: pointer;
+}
+
+.authorization .find-account
+{
+    font-size: 13px;
+}
+
+.main-content .more-info
+{
+    text-align: center;
+}
+
+.main-content .more-info .create-account
+{
+    font-size: 14px;
+    display: block;
+    padding-bottom: 35px;
+}
+
+.more-info .tagline
+{
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.more-info .logo-list
+{
+    background: url("../img/logo-list.png") no-repeat;
+    width: 230px;
+    height: 17px;
+    margin: 0 auto;
+}
+
+.footer
+{
+    height: 35px;
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content
+{
+    padding: 0 44px;
+}
+
+.footer-list
+{
+    margin-top: 8px;
+}
+
+.footer-content .footer-list li
+{
+    display: inline-block;
+    padding-right: 16px;
+}
+
+.footer-list a
+{
+    color: #737373;
+    font-size: 11px;
+}
+
+.fl-l
+{
+    float: left;
+}
+
+.fl-r
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+}
